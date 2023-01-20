@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+}
+nav{
+    position: absolute;
+    width: 90%;
+    height: 80px;
+    background-color: blue;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+margin-top: 15px;
+    background-color: aliceblue;
+}
+.mi li{
+    
+    position: absolute;
+    list-style: none;
+    background-color: coral;
+    width: 400px;
+    height:50px ;
+    margin-left: 24cm;
+}
+.sport{
+    position:relative;
+  
+    background-color: chartreuse;
+    height: 650px;
+       
+}
+.cricket{
+    position: absolute;
+    height: 9cm;
+   width: 9cm;
+    background-color: rgb(138, 142, 146);
+    top: 75px;
+    left: 30cm;
+}
+.odi h1{
+    position: absolute;
+    background-color: brown;
+    height: 30%;
+    width: 20%;
+  top: 150px;
+    left: 120px;
+}
+.odi p{
+    position:absolute;
+    width: 320px;
+    height: 20px;
+    top: 350px;
+    margin-left: 120px;
+    background-color: black;
+}
+.odi button{
+    position: absolute;
+    background-color: aliceblue;
+    width: 80px;
+    height: 20px;
+    top: 450px;
+    left: 220px;
+
+}
+.city{
+    position: relative;
+    background-color: aqua;
+    height: 750px;
+}
+.tnj{
+    position:absolute;
+   height: 8cm;
+   width: 8cm;
+   top: 5cm;
+   margin-left: 70px;
+    background-color: blueviolet;
+}
+.try{
+    position: absolute;
+    width: 6cm;
+    height: 40px;
+    background-color: crimson;
+    margin-top: 20%;
+  left: 30cm;
+}
+.try h1{
+    
+    background-color: coral;
+    width: 5cm;
+    margin-top:30% ;
+    height: 30px;
+ left: 25cm;
+
+}
+.football{
+    position:relative;
+  
+    background-color: crimson;
+    height: 750px;
+}
+.ronaldo{
+    position: absolute;
+    background-color: aqua;
+    width: 6cm;
+    height: 50px;
+    margin-left: 19cm;
+    margin-top: 20px;}
+
+    .ronaldo h1{
+        position: absolute;
+        top: 60px;
+background-color: black;
+width: 6cm;
+height: 20px;
+
+    }
+    .cr7{
+        position: absolute;
+        width: 4cm;
+        height: 4cm;
+        background-color: floralwhite;
+        margin-top: 15%;
+        right: 33cm;
+    }
+    .cr7 h5{
+        position: absolute;
+        background-color: rgb(16, 15, 15);
+        height: 20px;
+        width: 150px;
+        top: 5cm;
+    }
+    .messi{
+        position: absolute;
+        background-color: floralwhite;
+        width: 4cm;
+        height: 4cm;
+        left: 13cm;
+        margin-top: 15%;
+        
+    }
+    .messi h5{
+        position: absolute;
+        background-color: rgb(16, 15, 15);
+        height: 20px;
+        width: 150px;
+        top: 5cm;
+
+    }
+    .neymar{
+        position: absolute;
+        background-color: floralwhite;
+        width: 4cm;
+        height: 4cm;
+        margin-left: 23cm;
+        margin-top: 15%;
+
+    }
+    .neymar h5{
+        position: absolute;
+        background-color: rgb(16, 15, 15);
+        height: 20px;
+        width: 150px;
+        top: 5cm;
+    }
+    .pele{
+        position: absolute;
+        background-color: floralwhite;
+        width: 4cm;
+        height: 4cm;
+        left: 33cm;
+        margin-top: 15%;
+    }
+.pele h5{
+    position: absolute;
+    background-color: rgb(16, 15, 15);
+    height: 20px;
+    width: 150px;
+    top: 5cm;
+
+}
+
+.players{
+    position:relative;
+  
+    background-color: rgb(13, 13, 13);
+    height: 750px;
+       
+}
+    .raina{
+        position: absolute;
+        background-color: aliceblue;
+        width: 5cm;
+        height: 40px;
+        left: 17cm;
+    }
+    .raina h1{
+        position: absolute;
+        background-color: aqua;
+        width: 5cm;
+        height: 20px;
+        margin-right: 15cm;
+        top: 120px;
+    }
+    .kohli{
+        position: absolute;
+        background-color: gold;
+        width: 4cm;
+        height:4cm;
+        margin-top:15%;
+        margin-left: 3cm;
+    }
+    .dhoni{
+        position: absolute;
+        background-color: gold;
+        width: 4cm;
+        height:4cm;
+        margin-top:15%;
+        margin-left: 19cm;
+    }
+    .rohit{
+        position: absolute;
+        background-color: gold;
+        width:4cm;
+        height:4cm;
+        margin-left: 33cm;
+        margin-top: 15%;
+    }
+    .curran{
+        position: absolute;
+        background-color: gold;
+        width:4cm;
+        height:4cm;
+        margin-left: 33cm;
+        margin-top: 35%;
+    }
+    .jadeja{
+        position: absolute;
+        background-color: gold;
+        width: 4cm;
+        height:4cm;
+        margin-top:35%;
+        margin-left: 19cm;
+    }
+    .raidu{
+        position: absolute;
+        background-color: gold;
+        width: 4cm;
+        height:4cm;
+        margin-top:35%;
+        margin-left: 3cm;
+    }
+    .players1{
+        position:relative;
+      
+        background-color: rgb(33, 19, 230);
+        height: 750px;
+           
+    }
+        .raina1{
+            position: absolute;
+            background-color: aliceblue;
+            width: 5cm;
+            height: 40px;
+            left: 17cm;
+        }
+        .raina1 h1{
+            position: absolute;
+            background-color: aqua;
+            width: 5cm;
+            height: 20px;
+            margin-right: 15cm;
+            top: 120px;
+        }
+        .kohli1{
+            position: absolute;
+            background-color: gold;
+            width: 4cm;
+            height:4cm;
+            margin-top:15%;
+            margin-left: 3cm;
+        }
+        .dhoni1{
+            position: absolute;
+            background-color: gold;
+            width: 4cm;
+            height:4cm;
+            margin-top:15%;
+            margin-left: 19cm;
+        }
+        .rohit1{
+            position: absolute;
+            background-color: gold;
+            width:4cm;
+            height:4cm;
+            margin-left: 33cm;
+            margin-top: 15%;
+        }
+        .curran1{
+            position: absolute;
+            background-color: gold;
+            width:4cm;
+            height:4cm;
+            margin-left: 33cm;
+            margin-top: 35%;
+        }
+        .jadeja1{
+            position: absolute;
+            background-color: gold;
+            width: 4cm;
+            height:4cm;
+            margin-top:35%;
+            margin-left: 19cm;
+        }
+        .raidu1{
+            position: absolute;
+            background-color: gold;
+            width: 4cm;
+            height:4cm;
+            margin-top:35%;
+            margin-left: 3cm;
+        }
+        .players2{
+            position:relative;
+          
+            background-color: rgb(240, 240, 243);
+            height: 750px;
+               
+        }
+            .raina2{
+                position: absolute;
+                background-color: rgb(20, 88, 147);
+                width: 5cm;
+                height: 40px;
+                left: 17cm;
+            }
+            .raina2 h1{
+                position: absolute;
+                background-color: aqua;
+                width: 5cm;
+                height: 20px;
+                margin-right: 15cm;
+                top: 120px;
+            }
+            .kohli2{
+                position: absolute;
+                background-color: gold;
+                width: 4cm;
+                height:4cm;
+                margin-top:15%;
+                margin-left: 3cm;
+            }
+            .dhoni2{
+                position: absolute;
+                background-color: gold;
+                width: 4cm;
+                height:4cm;
+                margin-top:15%;
+                margin-left: 19cm;
+            }
+            .rohit2{
+                position: absolute;
+                background-color: gold;
+                width:4cm;
+                height:4cm;
+                margin-left: 33cm;
+                margin-top: 15%;
+            }
+            .curran2{
+                position: absolute;
+                background-color: gold;
+                width:4cm;
+                height:4cm;
+                margin-left: 33cm;
+                margin-top: 35%;
+            }
+            .jadeja2{
+                position: absolute;
+                background-color: gold;
+                width: 4cm;
+                height:4cm;
+                margin-top:35%;
+                margin-left: 19cm;
+            }
+            .raidu2{
+                position: absolute;
+                background-color: gold;
+                width: 4cm;
+                height:4cm;
+                margin-top:35%;
+                margin-left: 3cm;
+            }
+            .team{
+                position: relative;
+                height: 750px;
+                background-color: darkorange;
+            }
+            .ind{
+                background-color: indigo;
+                width: 4cm;
+                height: 40px;
+                position: absolute;
+                margin-left: 20cm;
+            }
+            .aus{
+                position: absolute;
+                width: 12cm;
+                height: 12cm;
+                background-color: cadetblue;
+                top: 25%;
+                margin-left: 25cm;
+                
+            }
+            .aus .pak li{
+                display: block;
+                position: relative;
+                background-color: aqua;
+                width: 8cm;
+                height: 40px;
+                margin-top:80px;
+                margin-left: 80px;
+            }
+            
+            .ipl{
+                background-color: rgb(255, 255, 255);
+                height: 750px;
+            }
+            .rcb li{
+                background-color: rgb(192, 126, 160);
+                height: 200px;
+                width: 200px;
+                display: inline-flex;
+                position: relative;
+                top: 80px;
+                margin-left: 130px;
+            }
+            .srh li{
+                background-color: rgb(35, 197, 62);
+                height: 50px;
+                width: 220px;
+                display: inline-flex;
+                position: relative;
+                top: 120px;
+                margin-right: auto;
+                margin-left: 110px;
+            }
+            .kkr li{
+                background-color: rgb(230, 35, 136);
+                height: 60px;
+                width: 200px;
+                display: inline-flex;
+                position: relative;
+                top: 150px;
+                margin-left: 130px;
+            }
+            .line{
+                position: relative;
+                border: 5px solid rgb(90, 36, 36);
+                width: 80%;
+                top: 300px;
+                left: 10%;
+            }
+            .mail{
+                position: absolute;
+                height: 10%;
+                width: 60%;
+                background-color: rgb(75, 1, 246);
+                margin-top: 22%;
+                margin-left: 21%;
+                border-radius: 10px;}
+          
